@@ -1,0 +1,107 @@
+{
+
+"d" : {
+      "node_pkt_rate" :    [ "poisson", 19 ],
+      "node_proc_delay" :   0.001,
+      "node_queue_check" : 0.001,
+      "node_queue_cutoff": 128
+      },
+
+"n1" : {
+      "node_pkt_rate" :    [ "poisson", 19 ],
+      "node_proc_delay" :   0.010,
+      "node_queue_check" : 0.001,
+      "node_queue_cutoff": 128
+      },
+      
+"n2" : {
+      "node_pkt_rate" :    [ "poisson", 19 ],
+      "node_proc_delay" :   0.010,
+      "node_queue_check" : 0.001,
+      "node_queue_cutoff": 128
+      },      
+
+"w" : {
+      "node_pkt_rate" :    [ "poisson", 30 ],
+      "node_proc_delay" :   0.001,
+      "node_queue_check" : 0.001,
+      "node_queue_cutoff": 128
+      },
+      
+"w2" : {
+      "node_pkt_rate" :    [ "poisson", 30 ],
+      "node_proc_delay" :   0.001,
+      "node_queue_check" : 0.001,
+      "node_queue_cutoff": 128
+      },
+      
+"g" : {
+      "node_pkt_rate" :    [ "poisson", 19 ],
+      "node_proc_delay" :   0.035,
+      "node_queue_check" : 0.001,
+      "node_queue_cutoff": 128
+      },
+      
+"g2" : {
+      "node_pkt_rate" :    [ "poisson", 19 ],
+      "node_proc_delay" :   0.035,
+      "node_queue_check" : 0.001,
+      "node_queue_cutoff": 128
+      },
+      
+"w-g" : {
+      "link_transm_delay" : 0.005,
+      "link_capacity" : 300
+      },      
+      
+"w-g2" : {
+      "link_transm_delay" : 0.005,
+      "link_capacity" : 300
+      },    
+
+"w2-g" : {
+      "link_transm_delay" : 0.005,
+      "link_capacity" : 300
+      },       
+      
+"w2-g2" : {
+      "link_transm_delay" : 0.005,
+      "link_capacity" : 300
+      },        
+      
+"g-n1" : {
+      "link_transm_delay" : 0.005,
+      "link_capacity" : 2048
+      },
+      
+"w-n1" : {
+      "link_transm_delay" : 0.030,
+      "link_capacity" : 512
+      },      
+
+"g-n2" : {
+      "link_transm_delay" : 0.005,
+      "link_capacity" : 4000
+      },
+      
+"g2-n1" : {
+      "link_transm_delay" : 0.005,
+      "link_capacity" : 2048
+      },
+
+"g2-n2" : {
+      "link_transm_delay" : 0.005,
+      "link_capacity" : 4000
+      },
+
+"n1-d" : {
+      "link_transm_delay" : 0.030,
+      "link_capacity" : 2048
+      },
+
+"n2-d" : {
+      "link_transm_delay" : 0.020,
+      "link_capacity" : 4000
+      }
+      
+}
